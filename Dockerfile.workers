@@ -1,0 +1,18 @@
+FROM judge0/judge0:1.13.1
+CMD ["./scripts/workers"]
+```
+
+---
+
+### STEP 5 — Update Render Web Services
+
+**For judge0-server:**
+```
+Dockerfile Path:  ./Dockerfile.server
+Docker Command:   (leave blank)
+```
+
+**For judge0-workers (as Web Service):**
+```
+Dockerfile Path:  ./Dockerfile.workers
+Docker Command:   (leave blank)
